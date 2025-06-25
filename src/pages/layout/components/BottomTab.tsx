@@ -1,6 +1,5 @@
-import Home from "../../assets/icons/home.svg?react";
-import Profile from "../../assets/icons/profile.svg?react";
-
+import Home from "assets/icons/home.svg?react";
+import Profile from "assets/icons/profile.svg?react";
 import { NavButton } from "./NavButton";
 
 export default function BottomTab() {

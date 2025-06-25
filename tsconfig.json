@@ -3,5 +3,13 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+
+  "compilerOptions": {
+    "baseUrl": ".", // Set base URL for module resolution
+    "paths": {
+      "~/*": ["./src/*"], // Map '~' to 'src'
+      "src/*": ["./src/*"] // Map 'src' to 'src'
+    }
+  }
 }
